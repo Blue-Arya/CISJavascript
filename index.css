@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+
+.Diwali_background-counter{
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-bg.png");
+    height: 30vh;
+    background-size: cover;
+
+}
+.bottom-section{
+    background-color: aquamarine;
+    text-align: center;
+    padding: 15px;
+    background-size: cover;
+    
+}
+.heading-top{
+    color:#edf3f3;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    padding: 50px;
+    width: 200px;
+   
+}
+.card-container{
+    background-color: aliceblue;
+    padding: 15px;
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+       
+}
+.para{
+    font-style:italic;
+    font-weight: bold;
+}

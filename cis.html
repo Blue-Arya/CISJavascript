@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <script>
+            let env =100;
+            let sendAmount=env;
+            let x= "Test";
+            switch (x) {
+                case "dev":
+                    sendAmount=sendAmount+sendAmount*(0.1);
+                    console.log(sendAmount);
+                    break;
+                case "Test":
+                    sendAmount=sendAmount+sendAmount*(0.2);
+                    console.log(sendAmount);
+                    break;
+                case "Stage":
+                    sendAmount=sendAmount+sendAmount*(0.3);
+                    console.log(sendAmount);
+                    break;
+                case "Prod":
+                    sendAmount=sendAmount+sendAmount*(0.5);
+                    console.log(sendAmount);
+                    break;
+                default:
+                    console.log("Error");
+                    break;
+            }
+            
+        </script>
+    </body>
+</html>

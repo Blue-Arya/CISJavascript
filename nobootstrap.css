@@ -1,0 +1,24 @@
+a{
+    color:red;
+}
+#seeMore {
+    display: none;
+  }
+
+  #seeMore:target {
+    display: block;
+  }
+  #section1 {
+    display: none;
+  }
+
+  #section1:target {
+    display: block;
+  }
+  #section2 {
+    display: none;
+  }
+
+  #section2:target {
+    display: block;
+  }
